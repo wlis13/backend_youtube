@@ -9,6 +9,14 @@ const readUserModel = async () => {
   return data;
 };
 
+const readUserByIdModel = async (id) => {
+  const filePath = path.join(__dirname, PATH_FILE);
+  const data = JSON.parse(await fs.readFile(filePath));
+  const getObjectUser = data.find((user) => user.id === Number(id));
+  return getObjectUser;
+};
+
 module.exports = {
   readUserModel,
+  readUserByIdModel,
 };

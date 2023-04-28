@@ -1,8 +1,14 @@
 [
   {
-    "id": 0,
-    "name": "first user",
-    "email": "first@gmail.com",
-    "password": "senha-fulano"
+    "id": 1,
+    "name": "second user",
+    "email": "second@gmail.com",
+    "password": "second_password"
+  },
+  {
+    "id": 2,
+    "name": "thirth user",
+    "email": "thirth@gmail.com",
+    "password": "thirth_password"
   }
 ]
